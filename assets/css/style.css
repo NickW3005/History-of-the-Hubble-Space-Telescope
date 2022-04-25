@@ -61,3 +61,33 @@ li a:hover {
     margin-top: 30px;
 }
 
+/* Main Content */
+
+.about-section {
+    height: 600px;
+    width: 600px;
+    background-color: aqua;
+}
+
+.creation-section {
+    height: 600px;
+    width: 600px;
+    background-color: pink;
+}
+
+.launch-section {
+    height: 600px;
+    width: 600px;
+    background-color: orange;
+}
+
+#information div {
+    display: inline-block;
+}
+
+#footer {
+    height: 200px;
+    width: 100%;
+    background-color: silver;
+}
+
