@@ -35,5 +35,20 @@ li a {
 }
 
 li a:hover {
-    background-color: black;
+    border-bottom: 1px solid silver;
+}
+
+#footer { 
+    margin: auto 0;
+    padding: 0;
+    border: 50px solid silver;
+}
+
+/* hero image and annimation */
+
+#hero-image {
+    height: 800px;
+    width: 100%;
+    background-image: url('../images/hubble-telescope-gb67e34c1d_1920.jpg');
+    background-repeat: no-repeat;
 }
