@@ -15,7 +15,7 @@ body {
 
 #header {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     text-decoration: none;
     color: silver;
     font-size: xx-large;
@@ -83,6 +83,7 @@ li a:hover {
 
 #information div {
     display: inline-block;
+    text-align: center;
 }
 
 #footer {
