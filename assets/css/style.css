@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+}
+
+/* heading and logo*/
+
+#header {
+    text-decoration: none;
+    float: left;
+    color: silver;
+    font-size: xx-large;
+}
+
+li {
+    display: inline;
+    float: right;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+li a {
+    color: silver;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
