@@ -65,25 +65,33 @@ li a:hover {
 
 .about-section {
     height: 600px;
-    width: 600px;
+    width: 100%;
     background-color: aqua;
+    margin-top: 10px;
 }
 
 .creation-section {
     height: 600px;
-    width: 600px;
+    width: 100%;
     background-color: pink;
+    padding-top: 20px;
+    margin-top: 10px;
 }
 
 .launch-section {
     height: 600px;
-    width: 600px;
+    width: 100%;
     background-color: orange;
+    padding-top: 20px;
+    margin-top: 10px;
+    text-align: center;
 }
 
-#information div {
-    display: inline-block;
-    text-align: center;
+.shuttle-img {
+    height: 300px;
+    width: 300px;
+    background-image: url('../images/space-shuttle.jpg');
+    background-repeat: no-repeat;
 }
 
 #footer {
