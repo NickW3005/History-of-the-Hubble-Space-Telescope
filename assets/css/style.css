@@ -124,7 +124,20 @@ li a {
     height: 500px;
     width: 800px;
     background-color: silver;
+    text-align: center;
     opacity: 0.5;
     border: 3px solid black;
+    border-radius: 5%;
     margin: auto;
+    transform: translate(0, 50%)
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 80%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
