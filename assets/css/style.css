@@ -32,7 +32,7 @@ ul {
     margin-top: 15px;
     list-style-type: none;
     font-size: large;
-    letter-spacing: 4px; 
+    letter-spacing: 4px;
 }
 
 li {
@@ -68,6 +68,8 @@ li a:hover {
     width: 100%;
     background-color: aqua;
     margin-top: 10px;
+    text-align: center;
+
 }
 
 .creation-section {
@@ -87,11 +89,20 @@ li a:hover {
     text-align: center;
 }
 
+.launch-section>h2>p {
+    float: right;
+}
+
+li a {
+    color: silver;
+}
+
 .shuttle-img {
     height: 300px;
     width: 300px;
     background-image: url('../images/space-shuttle.jpg');
     background-repeat: no-repeat;
+    float: left;
 }
 
 #footer {
@@ -100,3 +111,20 @@ li a:hover {
     background-color: silver;
 }
 
+/* form section */
+
+.back-image {
+    height: 1000px;
+    width: 100%;
+    background-image: url('../images/dark\ shuttle.jpg');
+    margin-top: 20px;
+}
+
+#sign-up-form {
+    height: 500px;
+    width: 800px;
+    background-color: silver;
+    opacity: 0.5;
+    border: 3px solid black;
+    margin: auto;
+}
