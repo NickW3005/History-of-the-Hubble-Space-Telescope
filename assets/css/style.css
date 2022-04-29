@@ -125,7 +125,7 @@ li a {
     width: 800px;
     background-color: silver;
     text-align: center;
-    opacity: 0.5;
+    opacity: 0.7;
     border: 3px solid black;
     border-radius: 5%;
     margin: auto;
@@ -133,11 +133,31 @@ li a {
 }
 
 .text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 80%;
+    background: white;
+    width: 60%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+}
+
+.submit-button {
+    height: 40px;
+    width: 90px;
+    margin-top: 20px;
+    font-size: medium;
+    border: 2px solid #000;
+}
+
+.submit-button:hover {
+    background-color: yellow;
+}
+
+/* gallery */
+
+.gallery {
+    width: 500px;
+    height: 500px;
+    border: 2px solid #000;
+    object-fit: contain;
 }
